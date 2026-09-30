@@ -1,1 +1,1 @@
-grep -v '^#' /etc/protocols | awk '{print $2, $1}' | sort -rn | head -5
+awk '{print $2, $1}' /etc/protocols | sort -rn | head -5
