@@ -1,4 +1,4 @@
-cat > task6 <<'EOF'
+```cat > task6 <<'EOF'
 #!/bin/sh
 for f in *.c *.js; do
   if head -n 1 "$f" | grep -q -e '^//' -e '^/\*'; then
@@ -17,4 +17,4 @@ for f in *.py; do
 done
 EOF
 chmod +x task6
-./task6
+./task6```

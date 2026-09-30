@@ -1,4 +1,4 @@
-cat > task7 <<'EOF'
+```cat > task7 <<'EOF'
 #!/bin/sh
 for a in $(find "$1" -type f); do
   for b in $(find "$1" -type f); do
@@ -9,4 +9,4 @@ for a in $(find "$1" -type f); do
 done
 EOF
 chmod +x task7
-./task7 e
+./task7 e```
